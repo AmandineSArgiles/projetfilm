@@ -1,6 +1,7 @@
 #Projet 2 en appli streamlit
 import streamlit as st
 import pandas as pd
+from numpy as np
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 import unicodedata
