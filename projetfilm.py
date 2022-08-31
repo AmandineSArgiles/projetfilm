@@ -89,7 +89,7 @@ st.plotly_chart(fig, clear_figure=True)
 st.header("Recommandation:")
        
 
-DF["genres"] = DF["genres"].str.split(",")                     
+#DF["genres"] = DF["genres"].str.split(",")                     
 Ex = DF.explode('genres')
 GenreF = pd.concat([Ex['genres'].str.get_dummies()],axis=1)     
 GenreF = GenreF.groupby(GenreF.index).sum() 
