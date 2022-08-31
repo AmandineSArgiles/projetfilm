@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd
 
-from sklearn.neighbors import NearestNeighbors
-from sklearn.preprocessing import StandardScaler
+#from sklearn.neighbors import NearestNeighbors
+#from sklearn.preprocessing import StandardScaler
 import unicodedata
 
 import seaborn as sns
