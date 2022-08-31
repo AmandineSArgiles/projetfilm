@@ -1,6 +1,9 @@
 #Projet 2 en appli streamlit
 import streamlit as st
 import pandas as pd
+import sklearn.neighbors._base
+sys.modules['sklearn.neighbors.base'] = sklearn.neighbors._base
+
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 import unicodedata
